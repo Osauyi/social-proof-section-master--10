@@ -1,0 +1,124 @@
+  body{
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:  -90px 0px, 281px 143px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+    padding: 44px 160px 22px 160px;
+  }
+
+h1{
+  color:  hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+h2{
+  color:  hsl(300, 43%, 22%);
+  font-weight: 500;
+}
+p{
+  color:  hsl(303, 10%, 53%);
+  font-weight: 400;
+}
+
+.customReview{
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1;
+  margin-left: 233px;
+}
+
+
+.stars{
+  background-color:  hsla(302, 10%, 53%, 0.1);
+  font-size: 1rem;
+  text-align: center;
+  width: 410px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 10px;
+}
+
+.stars h2{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.guru{
+margin-left: 50px;
+}
+
+.BestTechs{
+margin-left: 100px;
+}
+
+span{
+  margin-left: 30px;
+}
+
+.subtext{
+  width: 400px;
+}
+
+.subtext p{
+  line-height: 1.4rem;
+}
+
+.list{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 40px;
+}
+.grid-item {
+  background-color: hsl(300, 43%, 22%);
+  font-size: 1rem;
+  text-align: left;
+  width: 273px;
+  height: 160px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.grid-item p{
+  line-height: 1.3rem;
+    color:  hsl(300, 24%, 96%);
+}
+
+.Avatarbox img{
+  border-radius: 50%;
+  width: 40px;
+}
+
+.Avatarname h2{
+  margin: 0px;
+color:  hsl(300, 24%, 96%);
+font-size: 1rem;
+}
+
+.Avatarname p{
+  margin: 0px;
+color:  hsl(333, 80%, 67%);
+}
+
+.Avatarname{
+float: right;
+margin-top: 5px;
+margin-right: 121px;
+}
+
+.irenebox{
+  margin-top: 20px;
+}
+
+.Annebox{
+  margin-top: 40px;
+}
